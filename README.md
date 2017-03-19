@@ -36,4 +36,4 @@ var server = app.listen(80, function () {
     console.log('Servidor Iniciado');
 });
 ```
-- Lembre-se de executar o `$ gulp` sempre que alterar o js
+- Por padrão o gulp aguardará por modificações nos diretórios de js, porém, acompanhe via terminal por exceptions e caso ocorra, faça Ctrl+c e execute o `$ gulp` novamente
