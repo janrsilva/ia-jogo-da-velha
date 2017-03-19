@@ -1,0 +1,29 @@
+{
+  "name": "jogo-da-velha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Janderson Silva",
+  "license": "ISC",
+  "dependencies": {
+    "consign": "^0.1.2",
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "express-validator": "^3.1.2",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^3.0.0",
+    "gulp-less": "^3.3.0",
+    "gulp-pug": "^3.3.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.1.0",
+    "jquery": "^3.2.0",
+    "socket.io": "^1.7.3"
+  },
+  "devDependencies": {
+    "gulp-livereload": "^3.8.1"
+  }
+}

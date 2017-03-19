@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>var base_url = 'http://localhost/';</script>
+<style>
+table, th, td {
+    border: 1px solid black;
+}
+td {
+    display: table-cell;
+    text-align:center;
+    vertical-align: middle;
+	width: 100px;
+	height: 100px;
+}
+
+</style>
+</head>
+<body>
+<form>
+<table align="center">
+  <tr>
+    <td><input type="hidden" name="00"></td>
+    <td><input type="hidden" name="01"></td>
+    <td><input type="hidden" name="02"></td>
+  </tr>
+  <tr>
+    <td><input type="hidden" name="10"></td>
+    <td><input type="hidden" name="11"></td>
+    <td><input type="hidden" name="12"></td>
+  </tr>
+  <tr>
+    <td><input type="hidden" name="20"></td>
+    <td><input type="hidden" name="21"></td>
+    <td><input type="hidden" name="22"></td>
+  </tr>
+</table>
+<form>
+<script src="/socket.io/socket.io.js"></script>
+<script src="js/app.min.js"></script>
+</body>
+</html>
